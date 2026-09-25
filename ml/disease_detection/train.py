@@ -4,7 +4,7 @@ from preprocess import load_datasets, IMG_SIZE
 
 TRAIN_DIR = "data/Train"
 VAL_DIR = "data/Validation"
-MODEL_PATH = "models/crop_disease_model.h5"
+MODEL_PATH = "models/crop_disease_model.keras"
 EPOCHS = 15
 
 train_ds, val_ds = load_datasets(TRAIN_DIR, VAL_DIR)
